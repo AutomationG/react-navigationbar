@@ -1,0 +1,31 @@
+.navBar{
+  background-color: black;
+  width:auto;
+  position: fixed;
+  left:0px;
+  top:0px;
+  
+  ul{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  
+  li{
+    text-decoration: none;
+  }
+
+  Link{
+    color:white;
+  }
+}
+
+}
+
+
+.home{
+  display: flex;
+}
+
+p{
+  margin-left:100px;
+}
