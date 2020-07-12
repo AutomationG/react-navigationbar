@@ -8,11 +8,11 @@ import navLinks from './NavigationConfig.js';
 
 const router = (
   <Router>
-   <NavigationRoute navLinks={navLinks}/>
+  <NavigationRoute navLinks={navLinks}/>
   <Switch>
-   <Home path="/" />
-   <Contact path="/Pages/Contact" />
-   <About path="/Pages/About"/>
+   <Home exact path="/" />
+   <Contact path="/Contact" />
+   <About path="/About"/>
   </Switch>
   </Router>
   )
