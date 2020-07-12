@@ -1,31 +1,43 @@
 .navBar{
+  width:120px;
+  position: relative;
   background-color: black;
-  width:auto;
-  position: fixed;
-  left:0px;
-  top:0px;
-  
+  transition: position 2s;
+
   ul{
   display: flex;
   flex-direction: column;
   list-style: none;
+  color:white;
   
+ 
   li{
     text-decoration: none;
   }
 
-  Link{
-    color:white;
+  .icon{
+    position: absolute;
+     left:100px;;
   }
 }
-
 }
-
 
 .home{
   display: flex;
 }
 
+ .active{
+    left:-10px;
+  }
+
+  .comp{
+    left:-100px;
+  }
+
+  .menu{
+  cursor: pointer;
+  }
+
 p{
-  margin-left:100px;
+  margin-left:120px;
 }
